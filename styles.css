@@ -1,0 +1,24 @@
+body{
+    text-align:center;
+}
+
+h1 {
+    font-size:5rem;
+}    
+   
+
+h2{
+    font-size:2rem;
+    
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+
+button{
+    background-color:rgb(136, 136, 243);
+    font-size:3rem;
+    padding:1rem;
+    border-radius:5px;}
