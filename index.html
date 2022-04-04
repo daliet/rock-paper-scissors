@@ -9,7 +9,7 @@
 <body>
   <h1>Rock Paper Scissors</h1>
   <h2>This game is played in the console. Press Ctrl+Shift+I for Windows/Linux or Options+J for Mac</h2>
-    
+  <button onclick="game()">Play Game</button>  
     <script>
         
     const choices = ["rock", "paper", "scissors"];
@@ -94,9 +94,10 @@
             else if  (userScore < pcScore){
                 console.log("!!!COMPUTER WINS!!!"), alert("YOU LOST!!!" + " " + pcScore + "-" + userScore); 
             }   
+            document.querySelector('button').textContent = 'New Game';
         }
 
-        game();
+        
     
     </script>
 </body>
