@@ -7,12 +7,38 @@
     <link rel="stylesheet" href="styles.css">
     <title>Rock Paper Scissors</title>
 </head>
-<body>
-  
+<body class = "font-effect-neon">
+
+  <div class = "font-effect-neon">
   <h1>Rock Paper Scissors</h1>
-  <h2>This game is played in the console. Press Ctrl+Shift+I for Windows/Linux or Options+J for Mac</h2>
-  <button onclick="game()">Play Game</button>
-  <script src="game.js"></script>  
+
+<div class = "selection">
+  <button id = "rock"><img src = "rock.png"> </button>
+  <button id = "paper"><img src = "paper.png"></button>
+  <button id = "scissors"><img src = "scissors.png"></button>
+</div>
+
+<div class = "winner"></div>
+<div class = "results"></div>
+
+<div class = "score">
+  <table> 
+  <tr>
+    <th>Player</th>
+    <th>Computer</th>
+  </tr>
+  <tr>
+    <th class = "player"></th>
+    <th class = "computer"></th>
+  </tr>  
+  </table>
+</div>
+
+
+
+  <script src="game.js"></script> 
+  
+</div>
 
 </body>
 </html>
