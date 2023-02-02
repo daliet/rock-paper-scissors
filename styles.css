@@ -90,14 +90,6 @@ th{
 }
 
 @media only screen and (max-width: 450px) {
-    h1 {
-        font-size:2rem;
-    }    
-
-    .results{
-        font-size:2rem;
-    }
-
     .player, .computer, .score, .winner{
         font-size:1.75rem; 
     }
