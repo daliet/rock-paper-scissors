@@ -71,6 +71,7 @@ th{
     border-collapse: collapse;
 }
 
+/*media queries for mobile*/
 @media only screen and (max-width: 600px) {
     h1 {
         font-size: 2rem;
@@ -96,5 +97,24 @@ th{
     
     img{
         height: 20vh; 
+    }
+}
+
+/*media queries for tablet*/
+@media only screen and (max-width: 768px) and (min-width: 601px) {
+    h1 {
+        font-size:3rem;
+    }    
+
+    .results{
+        font-size:2rem;
+    }
+
+    .player, .computer, .score, .winner{
+        font-size:2rem; 
+    }
+    
+    img{
+        height:35vh; 
     }
 }
