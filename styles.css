@@ -2,14 +2,14 @@
 
 
 body{
-    text-align:center;
+    text-align: center;
     font-family: 'Lato';
     background-color:#111;
-    height:100%;  
+    height: 100%;  
 }
 
 h1 {
-    font-size:4rem;
+    font-size: 4rem;
     margin-top: 25px;
     margin-bottom: 25px;
 }    
@@ -17,12 +17,12 @@ h1 {
 button{
     border: #111;
     background-color: #111;
-    margin:0.2rem;
-    padding:0;
+    margin: .2rem;
+    padding: 0;
 }
 
 button:hover{
-    cursor:pointer;
+    cursor: pointer;
     box-shadow: 0 0 0.1em #fff, 0 0 0.2em #fff, 
         0 0 0.3em #fff, 0 0 0.4em #f7f,
         0 0 0.6em #f0f, 0 0 0.8em #f0f, 
@@ -35,66 +35,66 @@ button:active{
 }
 
 img{
-    width:100%;
-    height:40vh; 
+    width: 100%;
+    height: 40vh; 
 }
 
 .results{
-    white-space:pre-wrap;
+    white-space: pre-wrap;
     margin-top: 20px;
-    font-size:2rem;
+    font-size: 2rem;
     }
 
 .player, .computer, .score{
-    font-size:2rem; 
+    font-size: 2rem; 
 }
 
 .winner{
     margin-top: 20px;
-    font-size:3rem;
+    font-size: 3rem;
 }
 
 .score{
-    padding-top:10px;
-    margin:auto;
+    padding-top: 10px;
+    margin: auto;
 }
 
 table{
-    width:20%;
+    width: 20%;
     margin-left: auto;
     margin-right: auto;
 }
 
 th{
     padding: .5rem;
-    text-align:center;
+    text-align: center;
     border-collapse: collapse;
 }
 
 @media only screen and (max-width: 600px) {
     h1 {
-        font-size:2rem;
+        font-size: 2rem;
     }    
 
     .results{
-        font-size:2rem;
+        font-size: 2rem;
     }
 
     .player, .computer, .score, .winner{
-        font-size:2rem; 
+        font-size: 2rem; 
     }
 
     img{
-        height:30vh; 
+        height: 30vh; 
     }
 }
 
 @media only screen and (max-width: 450px) {
     .player, .computer, .score, .winner{
-        font-size:1.75rem; 
+        font-size: 1.75rem; 
     }
     
     img{
-        height:20vh; 
+        height: 20vh; 
     }
 }
