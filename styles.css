@@ -9,15 +9,10 @@ body{
 }
 
 h1 {
-    font-size:7rem;
+    font-size:4rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }    
-   
-
-h2{
-    font-size:2rem;    
-}
-
-
 
 button{
     border: #111;
@@ -41,36 +36,73 @@ button:active{
 
 img{
     width:100%;
-    height:100%; 
+    height:40vh; 
 }
 
 .results{
     white-space:pre-wrap;
-    margin-top: 50px;
-    font-size:3rem;
+    margin-top: 20px;
+    font-size:2rem;
     }
 
 .player, .computer, .score{
-    font-size:3rem; 
+    font-size:2rem; 
 }
 
 .winner{
-    margin-top: 50px;
+    margin-top: 20px;
     font-size:3rem;
 }
 
 .score{
-    padding-top:20px;
+    padding-top:10px;
     margin:auto;
-    width:30%;
 }
 
 table{
-    width:100%;
+    width:20%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 th{
-    padding: .75rem;
+    padding: .5rem;
     text-align:center;
     border-collapse: collapse;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size:2rem;
+    }    
+
+    .results{
+        font-size:2rem;
+    }
+
+    .player, .computer, .score, .winner{
+        font-size:2rem; 
+    }
+
+    img{
+        height:30vh; 
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    h1 {
+        font-size:2rem;
+    }    
+
+    .results{
+        font-size:2rem;
+    }
+
+    .player, .computer, .score, .winner{
+        font-size:1.75rem; 
+    }
+    
+    img{
+        height:20vh; 
+    }
 }
